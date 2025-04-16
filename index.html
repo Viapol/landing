@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransitPro - Профессиональные транспортные решения</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>TransitPro</h1>
+            </div>
+            <div class="mobile-menu">
+                <button class="burger-button">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#fleet">Автопарк</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ваш надежный партнер в сфере транспорта</h1>
+            <p>Надежные, эффективные и профессиональные транспортные решения для вашего бизнеса</p>
+            <a href="#contact" class="cta-button">Получить предложение</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Наши услуги</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Грузоперевозки</h3>
+                <p>Надежная перевозка грузов по всей стране</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-warehouse"></i>
+                <h3>Логистика</h3>
+                <p>Комплексные решения для цепочек поставок</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-globe"></i>
+                <h3>Международные перевозки</h3>
+                <p>Глобальные транспортные услуги</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-box"></i>
+                <h3>Экспресс-доставка</h3>
+                <p>Быстрые и безопасные услуги доставки</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>О нас</h2>
+            <p>Имея более 20 лет опыта, TransitPro предоставляет надежные транспортные решения для бизнеса по всей стране. Наша приверженность совершенству и удовлетворенности клиентов выделяет нас среди конкурентов.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Лет опыта</p>
+                </div>
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Довольных клиентов</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Транспортных средств</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet" class="fleet">
+        <h2>Наш автопарк</h2>
+        <div class="fleet-grid">
+            <div class="fleet-card">
+                <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Грузовик">
+                <h3>Тяжелые грузовики</h3>
+                <p>Для перевозки крупных грузов</p>
+            </div>
+            <div class="fleet-card">
+                <img src="https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Фургон">
+                <h3>Доставные фургоны</h3>
+                <p>Для местной и региональной доставки</p>
+            </div>
+            <div class="fleet-card">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Контейнер">
+                <h3>Контейнеровозы</h3>
+                <p>Для международных перевозок</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Свяжитесь с нами</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <input type="tel" placeholder="Номер телефона">
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit" class="submit-button">Отправить сообщение</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>ул. Транспортная, 123, Город, Страна</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@transitpro.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TransitPro</h3>
+                <p>Ваш надежный партнер в сфере транспорта</p>
+            </div>
+            <div class="footer-section">
+                <h3>Быстрые ссылки</h3>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Следите за нами</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TransitPro. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
